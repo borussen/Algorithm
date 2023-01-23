@@ -2,7 +2,6 @@
 
 ### Duration : Spring Semester, 2021
 
-Problem list of Algorithm
 
 ### Instruction
 - G++ compiler will be used to compile submitted codes.<br>
