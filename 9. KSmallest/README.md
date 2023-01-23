@@ -1,19 +1,21 @@
-# MST
+# K-Smallest
 
-Given a weighted undirected graph, provide the cost of a minimum spanning tree. <br>
+Given 𝑁 numbers, implement an efficient algorithm to find 𝐾 smallest values among them.
 
-<b>Input:</b> <br> 
-In the first line, two integers 𝑛 (1 ≤ 𝑛 ≤ 10,000) and 𝑚 (1 ≤ 𝑚 ≤ 200,000) are given where 𝑛
-and 𝑚 are the number of vertices and edges of the graph, respectively. The following lines describes
-𝑚 edges in a format of “𝑎 𝑏 𝑐” indicating that the graph has an edge between vertices 𝑎 and 𝑏 with
-cost of 𝑐 . Note that the vertex index begins with 1 and the cost 𝑐 can be negative but |𝑐| <
-1,000,000. <br>
+a. The numbers are 32-bit positive integers smaller than 100,000,000.
 
-<b>Output:</b> <br>
-You are required to output the cost of a minimum spanning tree. <br>
+b. 1,000,000 ≤ 𝑁 ≤ 100,000,000 and 10 ≤ 𝐾 ≤ 10,000
 
-Note that, your program can allocate up to 512MB memory and should produce the output within 3
-seconds. <br>
+c. The smallest 𝐾 numbers should be reported in non-decreasing order.
 
-### Input / Output
-![image](https://user-images.githubusercontent.com/81274632/214039870-eb62e5ab-1d07-4383-8f23-0b44867c1bcc.png)
+d. The input file is a binary format: see the skeleton code.
+
+e. The output file is a text file containing the 𝐾 numbers and runtime.
+
+f. The input and output can have duplicates. In other words, there can be the equal numbers.
+
+g. Your submission will be evaluated based on the correctness and runtime. For each test case, you will not get any credit if your program produces a wrong result.
+
+h. Runtimes longer than 30 seconds will be considered as timeout.
+
+i. Your program can allocate up to 16GB memory.
