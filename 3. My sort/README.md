@@ -1,11 +1,16 @@
-# Calculator
+# My sort
 
-Calculate a given expression consisting of natural numbers less than 999 (1, 2, 3, ... , 999), binary
-operators ( +, -, *, / ), and parentheses. Provide the result to the second decimal place by rounding off
-(e.g., 5/3 = 1.67). <br><br>
+Implement a sorting algorithm on the provided skeleton code. Assume that the number of objects 𝑁𝑁
+ranges 1,000 ≤ 𝑁𝑁 ≤ 100,000,000 and the objects are 32-bit integers larger than −100,000,000 but
+smaller than 100,000,000. <br><br>
 
-Note that, the length of input expression does not exceed 100, and your program has to produce an
-answer within 5 seconds. <br><br>
+Your submission will be evaluated based on the correctness and runtime. For each test case, you will
+not get any credit if your program produces a wrong sorting result. <br><br>
 
-### Input / Output
-![image](https://user-images.githubusercontent.com/81274632/214030334-241a56af-c740-443f-afe3-c5706722393c.png)
+### Tips:
+1) You need to specify input and output file names when executing your program.
+    - The input file has a binary format: see the skeleton code.
+    - The output file is a text file containing the validation result (OKAY or WRONG) and runtime.
+    <br>
+2) You are recommended to consider various distributions of the input data.
+For instance, the values can be randomly distributed or focused on a certain range.
