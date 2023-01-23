@@ -1,11 +1,19 @@
-# Calculator
+# MST
 
-Calculate a given expression consisting of natural numbers less than 999 (1, 2, 3, ... , 999), binary
-operators ( +, -, *, / ), and parentheses. Provide the result to the second decimal place by rounding off
-(e.g., 5/3 = 1.67). <br><br>
+Given a weighted undirected graph, provide the cost of a minimum spanning tree. <br>
 
-Note that, the length of input expression does not exceed 100, and your program has to produce an
-answer within 5 seconds. <br><br>
+<b>Input:</b> <br> 
+In the first line, two integers 𝑛 (1 ≤ 𝑛 ≤ 10,000) and 𝑚 (1 ≤ 𝑚 ≤ 200,000) are given where 𝑛
+and 𝑚 are the number of vertices and edges of the graph, respectively. The following lines describes
+𝑚 edges in a format of “𝑎 𝑏 𝑐” indicating that the graph has an edge between vertices 𝑎 and 𝑏 with
+cost of 𝑐 . Note that the vertex index begins with 1 and the cost 𝑐 can be negative but |𝑐| <
+1,000,000. <br>
+
+<b>Output:</b> <br>
+You are required to output the cost of a minimum spanning tree. <br>
+
+Note that, your program can allocate up to 512MB memory and should produce the output within 3
+seconds. <br>
 
 ### Input / Output
-![image](https://user-images.githubusercontent.com/81274632/214030334-241a56af-c740-443f-afe3-c5706722393c.png)
+![image](https://user-images.githubusercontent.com/81274632/214039870-eb62e5ab-1d07-4383-8f23-0b44867c1bcc.png)
