@@ -3,7 +3,7 @@ Problem list of Algorithm
 
 ### Instruction
 - G++ compiler will be used to compile submitted codes.<br>
-  Compile Command: “g++ SOURCE_CODE.cpp -O2 -std=c++11”
+  - Compile Command: “g++ SOURCE_CODE.cpp -O2 -std=c++11”
 - Program will be tested on Ubuntu 16.04.
 - Program will get two arguments, input and output file names, from the command line as
 follows:<br>
