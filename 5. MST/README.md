@@ -1,6 +1,6 @@
 # MST
 
-Given a weighted undirected graph, provide the cost of a minimum spanning tree. <br>
+Given a weighted undirected graph, provide the cost of a minimum spanning tree. Note that, your program can allocate up to 512MB memory and should produce the output within 3 seconds. <br>
 
 <b>Input:</b> <br> 
 In the first line, two integers 𝑛 (1 ≤ 𝑛 ≤ 10,000) and 𝑚 (1 ≤ 𝑚 ≤ 200,000) are given where 𝑛
@@ -11,9 +11,6 @@ cost of 𝑐 . Note that the vertex index begins with 1 and the cost 𝑐 can be
 
 <b>Output:</b> <br>
 You are required to output the cost of a minimum spanning tree. <br>
-
-Note that, your program can allocate up to 512MB memory and should produce the output within 3
-seconds. <br>
 
 ### Input / Output
 ![image](https://user-images.githubusercontent.com/81274632/214039870-eb62e5ab-1d07-4383-8f23-0b44867c1bcc.png)
